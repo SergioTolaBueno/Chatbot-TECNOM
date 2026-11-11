@@ -24,4 +24,4 @@ Chatbot-TECNOM/
 └── README.md          # Documentación del proyecto
 ```
 ---
-*Desarrollado por [Sergio David Tola Bueno](https://linkedin.com) — Estudiante de Licenciatura en Ciencias de Datos (UBA).*
+*Desarrollado por [Sergio David Tola Bueno](https://www.linkedin.com/in/sergio-david-tola-bueno/) — Estudiante de Licenciatura en Ciencias de Datos (UBA).*
