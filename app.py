@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st  
 from groq import Groq
 
 st.set_page_config(page_title="Mi Chat de IA", page_icon="🙂")
@@ -7,7 +7,7 @@ nombre = st.text_input("¿Cuál es tu nombre?")
 if st.button("Saludar"):
     st.write(f"¡Hola, {nombre}! ¡Bienvenido! ")
 
-MODELOS = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768']
+MODELOS = ['llama-3.3-70b-versatile', 'openai/gpt-oss-20b', 'openai/gpt-oss-120b']
 
 
 def crear_usuario_groq():
@@ -82,7 +82,7 @@ def main():
             with st.chat_message("assistant"):
                 respuesta_completa = st.write_stream(
                     generar_respuesta(chat_completo))
-                actualizar_historial("assitant", respuesta_completa, "😆")
+                actualizar_historial("assistant", respuesta_completa, "😆")
                 st.rerun()  # Actualizar
 
 
