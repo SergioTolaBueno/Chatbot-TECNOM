@@ -19,9 +19,10 @@ Asistente conversacional interactivo desarrollado en **Python** utilizando el fr
 ```text
 Chatbot-TECNOM/
 ├── .streamlit/        # Configuración de la interfaz de Streamlit
-├── app.py             # Código principal de la aplicación y lógica del chatbot
-├── requirements.txt   # Dependencias necesarias para ejecutar el proyecto
-└── README.md          # Documentación del proyecto
+├── .gitignore         # Archivos y credenciales excluidos del control de versiones
+├── README.md          # Documentación del proyecto
+├── app.py             # Código principal de la aplicación y lógica del chatbot 
+└── requirements.txt   # Dependencias necesarias para ejecutar el proyecto 
 ```
 ---
 *Desarrollado por [Sergio David Tola Bueno](https://www.linkedin.com/in/sergio-david-tola-bueno/) — Estudiante de Licenciatura en Ciencias de Datos (UBA).*
